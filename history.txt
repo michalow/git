@@ -1,0 +1,17 @@
+    1  code
+    2  git init
+    3  ls -a
+    4  git status
+    5  git add .
+    6  git status
+    8  git commit -m "ajout fichier.txt"
+    9  git status
+   10  git branch -M main
+   11  git remote add origin https://github.com/michalow/git.git
+   12  git push -u origin main
+   13  git diff origin main
+   14  git diff origin/main main
+   15  git status
+   16  git add fichier.txt
+   17  git status
+   18  history >> history.txt
